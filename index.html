@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshita Anala | Data Scientist & Software Developer </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-left">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+        </div>
+        <div class="nav-center">
+            <h1 class="logo">Harshita Anala</h1>
+        </div>
+        <div class="nav-right">
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="text-content">
+                <h1 class="main-heading">Hello, I'm <span class="highlight">Harshita Anala</span></h1>
+                <h2 class="sub-heading">Data Scientist & Software Developer & </h2>
+                <p class="description">Transforming complex data into meaningful insights and building innovative software solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-container">
+                    <img src="/api/placeholder/400/400" alt="Harshita Anala" class="profile-image">
+                    <div class="floating-shape shape1"></div>
+                    <div class="floating-shape shape2"></div>
+                    <div class="floating-shape shape3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <p>Scroll Down</p>
+            <i class="fas fa-chevron-down bounce"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="/api/placeholder/400/600" alt="John working" class="about-img">
+            </div>
+            <div class="about-content">
+                <h3 class="experience-title">6 Months of Experience</h3>
+                <p class="about-text">As a passionate software developer and data scientist, I bring a unique blend of technical expertise and analytical skills to the table. With a background in computer science and statistics, I specialize in developing data-driven applications that solve real-world problems.</p>
+                <p class="about-text">My journey began at Mumbai University where I earned my Bachelor's in Artificial Intelligenece and data science. Since then, I've working with a startup to build scalable applications and extract meaningful insights from complex datasets.</p>
+                
+                <div class="skills-container">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-groups">
+                        <div class="skill-group">
+                            <h4>Languages</h4>
+                            <div class="skills">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">R</span>
+                                <span class="skill-tag">Java</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Frameworks & Libraries</h4>
+                            <div class="skills">
+                                
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">PyTorch</span>
+                                
+                                <span class="skill-tag">Flask</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Tools & Platforms</h4>
+                            <div class="skills">
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Dev</button>
+            <button class="filter-btn" data-filter="data">Data Science</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <img src="/api/placeholder/400/300" alt="E-commerce Platform">
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">E-commerce Platform</h3>
+                    <p class="project-desc">A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, product search, cart management, and payment processing.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Stripe API</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card" data-category="ml">
+                <div class="project-img">
+                    <img src="/api/placeholder/400/300" alt="Sentiment Analysis Tool">
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Sentiment Analysis Tool</h3>
+                    <p class="project-desc">An NLP-based sentiment analysis tool that analyzes customer reviews and social media mentions to provide insights on brand perception.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>BERT</span>
+                        <span>Flask</span>
+                        <span>D3.js</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card" data-category="data">
+                <div class="project-img">
+                    <img src="/api/placeholder/400/300" alt="Data Visualization Dashboard">
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Data Visualization Dashboard</h3>
+                    <p class="project-desc">Interactive dashboard for visualizing complex datasets, featuring real-time updates, filtering capabilities, and exportable reports.</p>
+                    <div class="project-tech">
+                        <span>D3.js</span>
+                        <span>React</span>
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <div class="project-card" data-category="ml">
+                <div class="project-img">
+                    <img src="/api/placeholder/400/300" alt="Predictive Maintenance System">
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Predictive Maintenance System</h3>
+                    <p class="project-desc">IoT-based system that uses machine learning to predict equipment failures before they occur, reducing downtime and maintenance costs.</p>
+                    <div class="project-tech">
+                        <span>TensorFlow</span>
+                        <span>IoT</span>
+                        <span>AWS</span>
+                        <span>Time Series Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="see-more-container">
+            <a href="#" class="see-more-btn">See More Projects</a>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-container">
+            <div class="resume-tabs">
+                <button class="tab-btn active" data-tab="experience">Experience</button>
+                <button class="tab-btn" data-tab="education">Education</button>
+                <button class="tab-btn" data-tab="certifications">Certifications</button>
+            </div>
+            
+            <div class="tab-content">
+                <!-- Experience Tab -->
+                <div class="tab-pane active" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Aug 2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Data Scientist</h3>
+                                <h4>Impactworks, Bangalore</h4>
+                                <p>Lead a team of data scientists working on recommendation algorithms and customer segmentation models that increased user engagement by 34%.</p>
+                                <ul>
+                                    <li>Developed an ML pipeline that reduced model training time by 40%</li>
+                                    <li>Implemented A/B testing framework for evaluating model performance</li>
+                                    <li>Collaborated with engineering teams to deploy models to production</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">May 2023 - July 2023</div>
+                            <div class="timeline-content">
+                                <h3>Machine Learning Intern</h3>
+                                <h4>Reliance JIO, Mumbai</h4>
+                                <p>Designed and built data-intensive applications for financial services clients, focusing on real-time analytics and reporting.</p>
+                                <ul>
+                                    <li>Created RESTful APIs for data access and manipulation</li>
+                                    <li>Built responsive dashboards using React and D3.js</li>
+                                    <li>Optimized database queries resulting in 60% faster load times</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Dec 2022 - Jan 2023</div>
+                            <div class="timeline-content">
+                                <h3>Undergraduate Research Assistant</h3>
+                                <h4>Vesit Rennaisaince cell, Mumbai</h4>
+                                <p>Analyzed customer data to identify growth opportunities and optimize marketing campaigns.</p>
+                                <ul>
+                                    <li>Built predictive models for customer churn reduction</li>
+                                    <li>Created automated reporting systems using Python and SQL</li>
+                                    <li>Presented findings to executive team on a quarterly basis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Education Tab -->
+                <div class="tab-pane" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2020 - 2024</div>
+                            <div class="timeline-content">
+                                <h3>B.Tech in Artificial Intelligence and Data Science</h3>
+                                <h4>Vivekanand Education Society Institute of Technology</h4>
+                                
+                                <ul>
+                                    <li>GPA: 9.23/10</li>
+                                    <li>Research Assistant at AI Lab</li>
+                                    <li>Thesis: "Neural Networks for Time Series Forecasting in Financial Markets"</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2011 - 2015</div>
+                            <div class="timeline-content">
+                                <h3>B.S. in Computer Science & Statistics</h3>
+                                <h4>University of California, Berkeley</h4>
+                                <p>Double major with focus on Data Systems and Statistical Analysis</p>
+                                <ul>
+                                    <li>GPA: 3.85/4.0</li>
+                                    <li>Dean's List all semesters</li>
+                                    <li>Undergraduate Researcher in Data Mining Lab</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certifications Tab -->
+                <div class="tab-pane" id="certifications">
+                    <div class="certifications-grid">
+                        <div class="certification-card">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certification-details">
+                                <h3>AWS Certified Solutions Architect</h3>
+                                <p>Amazon Web Services</p>
+                                <span class="certification-date">2023</span>
+                            </div>
+                        </div>
+                        
+                        <div class="certification-card">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certification-details">
+                                <h3>TensorFlow Developer Certificate</h3>
+                                <p>Google</p>
+                                <span class="certification-date">2022</span>
+                            </div>
+                        </div>
+                        
+                        <div class="certification-card">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certification-details">
+                                <h3>Professional Data Engineer</h3>
+                                <p>Google Cloud</p>
+                                <span class="certification-date">2021</span>
+                            </div>
+                        </div>
+                        
+                        <div class="certification-card">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certification-details">
+                                <h3>Deep Learning Specialization</h3>
+                                <p>Coursera / DeepLearning.AI</p>
+                                <span class="certification-date">2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resume-download">
+                <a href="#" class="btn download-btn">
+                    <i class="fas fa-download"></i> Download Full Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mumbai, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>harshitaanala@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9967511212</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-medium-m"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="input-focus-effect"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="input-focus-effect"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <span class="input-focus-effect"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        <span class="input-focus-effect"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Harshita Anala</h2>
+                <p>Data Scientist & Software Developer </p>
+            </div>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-medium-m"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Harshita Anala. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
